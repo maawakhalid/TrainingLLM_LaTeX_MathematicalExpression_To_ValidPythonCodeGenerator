@@ -1,4 +1,4 @@
-# TrainingLLMs: LaTeX MathematicalExpression To ValidPythonCodeGenerator
+# TrainingLLMs: LaTeX MathematicalExpression To Valid PythonCode
 Given a LaTeX expression, train an LLM to generate valid python code.
 
 # Description
