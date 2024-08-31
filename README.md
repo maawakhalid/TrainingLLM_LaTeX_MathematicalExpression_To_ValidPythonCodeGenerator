@@ -32,3 +32,28 @@ The dataset includes a wide variety of equations across 14 types:
 12. Derivative
 13. Integration
 14. Differential Equations
+
+## Example Conversion
+**Equation type:** Logarithmic
+
+**Mathematical Expression**
+```scss
+3log(10x) + 10
+```
+
+**LaTeX Expression:**
+
+```latex
+3 \log{\left(10 x \right)} + 10
+```
+
+**Solution (Python Code):**
+
+String: "from sympy import log\n\ndef logrithmic_function(x):\n return 3log(10x) + 10\n"
+
+```python
+from sympy import log
+
+def logrithmic_function(x):
+    return 3*log(10*x) + 10
+```
